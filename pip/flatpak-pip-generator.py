@@ -188,7 +188,7 @@ elif opts.packages:
         requirements_file_output = req_file.name
 else:
     if not len(sys.argv) > 1:
-        exit('Please specifiy either packages or requirements file argument')
+        exit('Please specify either packages or requirements file argument')
     else:
         exit('This option can only be used with requirements file')
 
